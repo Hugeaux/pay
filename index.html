@@ -1,0 +1,150 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>MyStore Demo</title>
+      <meta name="description" content="MyStore demo">
+      <link rel="shortcut icon" href="https://www.mystoredemo.io/favicon.ico">
+      <link rel="icon" type="image/png" sizes="16x16" href="https://www.mystoredemo.io/assets/icons/favicon-16x16.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="https://www.mystoredemo.io/assets/icons/favicon-32x32.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://www.mystoredemo.io/assets/icons/apple-touch-icon.png">
+      <link rel="mask-icon" href="https://www.mystoredemo.io/assets/icons/safari-pinned-tab.svg" color="#00112c">
+      <meta name="msapplication-config" content="/assets/browserconfig.xml">
+      <meta name="msapplication-TileColor" content="#00112c">
+      <meta name="theme-color" content="#00112c">
+      <link rel="stylesheet" href="HugoDemo/adyen.css">
+      <link href="HugoDemo/mystoredemo.css" rel="stylesheet">
+   </head>
+   <body cz-shortcut-listen="true">
+      <script src="HugoDemo/adyen.js"></script>
+      <script src="HugoDemo/pay.js"></script><iframe src="HugoDemo/payframe.html" style="display: none; visibility: hidden;" allowpaymentrequest="true" width="0" height="0"></iframe>
+      <script type="text/javascript" src="HugoDemo/mystoredemo.js"></script>
+      <div class="mystore ">
+         <header class="header">
+            <div class="container">
+               <a class="header__link" href="#/" to="#/">
+                  <h1 class="header__title">MyStore Demo</h1>
+                  <img src="HugoDemo/mystore-logo.svg" alt="MyStore logo" class="lazyload-image lazyload-image--loaded header__logo">
+               </a>
+               <div class="shopping-cart"><a class="shopping-cart__link" href="#/cart" to="#/cart"><span class="shopping-cart__notifications">1</span><img class="icon icon-shopping-cart" src="HugoDemo/shopping-cart.svg" alt="Shopping cart"></a></div>
+            </div>
+         </header>
+         <main class="main container">
+            <section class="products">
+               <ul class="products__list">
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/01" to="#/product/01">
+                        <img src="HugoDemo/01.png" alt="Polo shirt" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Polo shirt</p>
+                        <p class="products__list__list-item__item__price">€24.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/02" to="#/product/02">
+                        <img src="HugoDemo/02.png" alt="Headphones" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Headphones</p>
+                        <p class="products__list__list-item__item__price">€19.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/03" to="#/product/03">
+                        <img src="HugoDemo/03.png" alt="Sunglasses" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Sunglasses</p>
+                        <p class="products__list__list-item__item__price">€15.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/04" to="#/product/04">
+                        <img src="HugoDemo/04.png" alt="Boots" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Boots</p>
+                        <p class="products__list__list-item__item__price">€35.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/05" to="#/product/05">
+                        <img src="HugoDemo/05.png" alt="Event ticket" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Event ticket</p>
+                        <p class="products__list__list-item__item__price">€39.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/06" to="#/product/06">
+                        <img src="HugoDemo/06.png" alt="Backpack" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Backpack</p>
+                        <p class="products__list__list-item__item__price">€35.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/07" to="#/product/07">
+                        <img src="HugoDemo/07.png" alt="Joypad" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Joypad</p>
+                        <p class="products__list__list-item__item__price">€23.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/08" to="#/product/08">
+                        <img src="HugoDemo/08.png" alt="Food delivery" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Food delivery</p>
+                        <p class="products__list__list-item__item__price">€18.99</p>
+                     </a>
+                  </li>
+                  <li class="products__list__list-item">
+                     <a class="products__list__list-item__item" href="#/product/09" to="#/product/09">
+                        <img src="HugoDemo/09.png" alt="Handbag" class="lazyload-image lazyload-image--loaded products__list__list-item__item__image">
+                        <p class="products__list__list-item__item__title">Handbag</p>
+                        <p class="products__list__list-item__item__price">€499.99</p>
+                     </a>
+                  </li>
+               </ul>
+            </section>
+            <footer class="footer">
+               <div class="country-selector">
+                  <div class="country-selector__flag">🇳🇱</div>
+                  <select class="country-selector__select" aria-label="country">
+                     <option value="AU">Australia</option>
+                     <option value="AT">Austria</option>
+                     <option value="BE">Belgium</option>
+                     <option value="BR">Brazil</option>
+                     <option value="CA">Canada</option>
+                     <option value="CN">China</option>
+                     <option value="CZ">Czech Republic</option>
+                     <option value="DK">Denmark</option>
+                     <option value="FI">Finland</option>
+                     <option value="FR">France</option>
+                     <option value="DE">Germany</option>
+                     <option value="HK">Hong Kong</option>
+                     <option value="IN">India</option>
+                     <option value="ID">Indonesia</option>
+                     <option value="IT">Italy</option>
+                     <option value="JP">Japan</option>
+                     <option value="KE">Kenya</option>
+                     <option value="MY">Malaysia</option>
+                     <option value="MX">Mexico</option>
+                     <option value="NL" selected="selected">Netherlands</option>
+                     <option value="NO">Norway</option>
+                     <option value="NZ">New Zealand</option>
+                     <option value="PH">Philippines</option>
+                     <option value="PL">Poland</option>
+                     <option value="PT">Portugal</option>
+                     <option value="RU">Russia</option>
+                     <option value="SG">Singapore</option>
+                     <option value="ES">Spain</option>
+                     <option value="SE">Sweden</option>
+                     <option value="CH">Switzerland</option>
+                     <option value="TH">Thailand</option>
+                     <option value="GB">United Kingdom</option>
+                     <option value="US">United States</option>
+                     <option value="VN">Vietnam</option>
+                  </select>
+               </div>
+               <p class="footer__copyright">© 2020 MyStore</p>
+            </footer>
+         </main>
+      </div>
+   </body>
+</html>
